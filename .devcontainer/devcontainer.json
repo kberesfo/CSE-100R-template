@@ -3,6 +3,7 @@
 {
 	"name": "Advanced DS Template",
 	"build": {
+		"context": ".",
 		"dockerfile": "Dockerfile"
 	},
 	"features": {
@@ -12,7 +13,10 @@
 	"customizations": {
 		"vscode": {
 			"extensions": [
-				"ms-vscode.cpptools-extension-pack"
+				"esbenp.prettier-vscode",
+				"ms-vscode.cpp-devtools",
+				"ms-vscode.cpptools-themes",
+				"ms-vscode.cpptools"
 			]
 		}
 	}
